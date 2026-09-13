@@ -51,10 +51,13 @@ Credit diberikan kepada pemilik asset masing-masing sesuai sumbernya.
 
 ## 🌐 Live Website
 
-<a href="https://aznjawa.github.io/hbd/" target="_blank" style="display: inline-block; padding: 10px 20px; border: solid 2px; border-radius: 20px; text-decoration: none;">
-    🎂 Lihat Website HBD
-</a>
-
+<p align="center">
+  <a href="https://aznjawa.github.io/hbd/" target="_blank">
+    <span style="border: 2px solid; border-radius: 20px; padding: 10px 20px; display: inline-block;">
+      🎂 Lihat Website HBD
+    </span>
+  </a>
+</p>
 
 ---
 
