@@ -30,19 +30,6 @@ Website memiliki beberapa tahap yang dapat dilanjutkan menggunakan tombol.
 
 JavaScript digunakan untuk mengatur perpindahan antar bagian halaman, interaksi tombol, serta menjalankan animasi pada saat musik dimainkan.
 
-## 📚 Pembelajaran
-
-Project ini juga dibuat sebagai latihan untuk memahami:
-
-* Struktur HTML
-* CSS Flexbox
-* CSS Animation dengan `@keyframes`
-* JavaScript DOM
-* `addEventListener`
-* Manipulasi element dengan JavaScript
-* HTML Audio
-* Deployment menggunakan GitHub Pages
-
 ## 🎵 Credits
 
 Beberapa asset eksternal digunakan dalam project ini.
