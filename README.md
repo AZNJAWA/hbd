@@ -49,4 +49,4 @@ Credit diberikan kepada pemilik asset masing-masing sesuai sumbernya.
 
 **HTML + CSS + JavaScript**
 
-Dibuat dengan kemampuan seadanya, tapi niatnya tidak seadanya. :D
+Dibuat dengan kemampuan seadanya, dan niat Day 1 membuat kek ginian dan bisa jadi
