@@ -140,11 +140,13 @@
 &lt;/body&gt;
 &lt;/html&gt;</code></pre>
         </div>
-        <p class="p_pembuatan">Nah disini itu gw kemaren buat htmlnya dulu dan ya strukturnya kek gini semoga bisa dipahami</p>
+                <p class="p_pembuatan">Nah disini itu gw kemaren buat htmlnya dulu dan ya strukturnya kek gini semoga bisa dipahami</p>
         <p class="p_pembuatan">nah terus kan itu ada head "apa itu head?" nah head adalah ya kek kepala dari web contoh buat tempat tittle, style buat webnya dll contoh kek digambar kan ada "meta name="viewport" content="width=device-width, initial-scale=1.0">" itu buat responsive layar</p>
-        <p class="p_pembuatan">nah terus kan itu ada body nah body itu isinya dari webnya contoh kek digambar kan ada "div class="top_a1" nah itu isinya dari webnya kek gitu, nah untuk top_a1 itu ya paham kan buat apa ya buat awalan lah yang selamat ulang tahun itu, nah terus class itu buat kasih kek tag gitu biar enak dipanggil di css ato javascript, untuk bagian dalam top_a1 kan ada tuh a1 nah itu isinya yaa.... biar enak gitu kalo mau di clear ama show in makanya gw tambahin top_a1 sebagai parent si a1. Nah untuk h1 itu = HEADER paham kan... kan pernah make word nah kek gitu jadi (h1 = yang paling gede, h2 = agak gede, h3 = sedang, sampe h6, nah untuk img kan gw pake link tuh knp pake src? karena ya src ya buat ambil gambar sih contoh ambil a1.png dll gitu)</p>
-        <p class="p_pembuatan">Selanjutnya gw lanjut bahas si button contoh kek digambar dan jan lupa kasih class biar enak dipanggil</p>
+        <p class="p_pembuatan">nah terus kan itu ada body nah body itu isinya dari webnya contoh kek digambar kan ada "div class="top_a1" nah itu isinya dari webnya kek gitu, nah untuk top_a1 itu ya paham kan buat apa ya buat awalan lah yang selamat ulang tahun itu, untuk bagian dalam top_a1 kan ada tuh a1 nah itu isinya yaa.... biar enak gitu kalo mau di clear ama show in makanya gw tambahin top_a1 sebagai parent si a1. Nah untuk h1 itu = HEADER paham kan... kan pernah make word nah kek gitu jadi (h1 = yang paling gede, h2 = agak gede, h3 = sedang, sampe h6, nah untuk img kan gw pake link tuh knp pake src? karena ya src ya buat ambil gambar sih contoh ambil a1.png dll gitu)</p>
+        <p class="p_pembuatan">Nah sebelum lanjut, ada yang namanya class dan id. Class itu bisa dibilang nama atau tanda yang diksih lah ke sebuah element supaya nanti gampang dipanggil dari CSS atau JavaScript. Contohnya class="gpp", berarti element itu mempunyai class bernama gpp. Satu class juga bisa dipakai oleh beberapa element. Kalau id kurang lebih mirip, tapi biasanya id digunakan sebagai identitas khusus untuk satu element. Contohnya id="a3". Jadi kalau mau gampangnya, class itu kayak nama kelompok sedangkan id itu kayak nomor identitas satu orang.</p>
+        <p class="p_pembuatan">Terus kalau di CSS ada tanda titik seperti .gpp itu artinya kita sedang mencari element yang mempunyai class gpp. Kalau pakai tanda pager kek #a3 berarti cari element yang mempunyai id a3. Jadi jan sampe ketuker jir, nanti bisa error ntah animasi g jalan style g kepasang wkwkwk.</p>
         <p class="p_pembuatan">lagu nih di lagu alias div lagu kan ada audio dan didalamnya ada source src="WES.mp3" type="audio/mpeg", nah disitu buat isi source link ato file mp3 dll, yang kamu klik itu buat jalanin lagi ya itu, buat piringan nanti gw bahas di css, ya kurang lebih begitu gw lanjut ke css/stylesheet</p>
+        <p class="p_pembuatan">Ya.... Kurang lebih html masih oke dan masih mudah dan juga belum masuk ke sriptnya </p>
         <div class="code-container">
             <div class="code-header">
                 <span class="lang-title">CSS</span>
@@ -720,10 +722,74 @@ audio {
 }</code></pre>
         </div>
 
-        <p class="p_pembuatan">nah untuk css itu ya kek gini, body itu adalah tubuh dari web nah itu gw set kek gitu kan nih display itu biar element-element di dalamnya muncul dan set modelnya jadi flex, kalo pake none itu bakal g nampak alias ilang, backgroun-color, align paham kan</p>
-        <p class="p_pembuatan">nice gw lanjut itu ada @keyframes buat apa? kalo ada pertanyaan gitu jadi si keyframe buat bikin animasi contoh transisingilang cari aja di gambar nah itu kan dari nampak ilang kan buat biar bisa jalanin di div ato yang lain bisa pake "animation: namakeyframe 1s(berapapun) tipe" kalo mw tau cara biar jalan kebalikan tipe pake alternate-reverse, kalo mau jalan terus tambahin infinite</p>
-        <p class="p_pembuatan">lanjut piringan...... untuk piringan kurang lebih kek gitu kan ada kan "border" itu buat sampingan emmm gmn ya kek line sampinh lah terus border-radius buat bikin kebulatan tapi harus set brp px(px = pixels) ato % dll, "transform: translate" itu gunanya untuk ubah posisi kalo scale pake scale: angka;, dah ya di css jan lupa pake ; diakhir kalo g error </p>
-        <p class="p_pembuatan">nah untuk div itu kan ada tuh div_lagu, nah itu gw kasih display none biar ilang, nah terus kan ada tuh div_bye, nah itu gw kasih display none biar ilang juga, nah terus kan ada tuh pembuatan, nah itu gw kasih display none biar ilang juga, nah terus kan ada tuh top_a2, nah itu gw kasih display none biar ilang juga, nah terus kan ada tuh a3, nah itu gw kasih display none biar ilang juga</p>
+
+        <p class="p_pembuatan">Nah sekarang lanjut ke CSS atau Cascading Style Sheets. Kalau HTML tadi tugasnya membuat struktur dan isi website, CSS tugasnya membuat website tersebut menjadi lebih bagus dan enak dilihat. CSS bisa digunakan untuk mengatur warna, ukuran tulisan, posisi element, background, border, jarak, sampai membuat animasi. Jadi HTML itu bisa dibilang kerangka rumahnya, sedangkan CSS itu bagian yang bikin rumahnya punya warna, bentuk, dan hiasan. Kalau HTML doang biasanya kelihatan polos banget jirr wkwkwk.</p>
+
+        <p class="p_pembuatan">Cara menulis CSS biasanya seperti ini: nama element atau class ditulis dulu, lalu di dalam kurung kurawal kita masukkan property yang mau diubah. Contohnya .gpp { background-color: forestgreen; }. Tanda titik di depan gpp berarti kita sedang memilih element yang mempunyai class gpp. Sedangkan background-color adalah property-nya dan forestgreen adalah nilai yang diberikan. Jadi gampangnya CSS bilang "element gpp, background kamu bikin hijau".</p>
+
+        <p class="p_pembuatan">Nah kalau ada tanda titik seperti .gpp itu digunakan untuk memilih class. Kalau ada tanda # seperti #a3 itu digunakan untuk memilih id. Contohnya .a3 berarti memilih element yang class-nya a3, sedangkan #a3 berarti memilih element yang id-nya a3. Jadi jangan sampai ketuker titik sama pagar, nanti yang dicari CSS bukan element yang kita maksud wkwkwk.</p>
+
+        <p class="p_pembuatan">Selanjutnya ada body. Body adalah bagian utama dari halaman website yang berisi semua element yang ditampilkan di halaman. Di CSS gw kasih body { display: flex; ... } supaya isi halaman menggunakan Flexbox. Flexbox ini sangat berguna buat mengatur posisi element supaya lebih gampang ditaruh di tengah, ke samping, ke bawah, dan lain-lain.</p>
+
+        <p class="p_pembuatan">Di body gw juga menggunakan justify-content: center dan align-items: center. Gampangnya dua property ini digunakan untuk membantu menaruh isi element ke tengah. Jadi kalau kita ingin tulisan atau bagian website berada di tengah layar, Flexbox bisa membantu mengaturnya tanpa harus menghitung posisi secara manual. Manusia akhirnya menemukan cara supaya nggak perlu menghitung posisi pixel satu-satu wkwkwk.</p>
+
+        <p class="p_pembuatan">Ada juga flex-direction: column. Kalau Flexbox biasanya element bisa disusun secara horizontal, dengan flex-direction: column element-element tersebut akan disusun dari atas ke bawah. Contohnya di beberapa div pada website ini gw pakai supaya tulisan, gambar, audio, dan button tersusun secara vertikal.</p>
+
+        <p class="p_pembuatan">Selanjutnya ada display. Ini salah satu property yang sering gw pakai di project ini. display: none; digunakan untuk menyembunyikan element. Contohnya .top_a2, .a3, .div_lagu, dan .div_bye awalnya gw kasih display: none supaya bagian tersebut belum muncul ketika website pertama kali dibuka. Nanti JavaScript yang akan mengubahnya menjadi display: flex ketika waktunya ditampilkan.</p>
+
+        <p class="p_pembuatan">Kalau display: flex; berarti element ditampilkan menggunakan Flexbox. Jadi misalnya ada div yang awalnya display: none, kemudian JavaScript mengubahnya menjadi display: flex, div tersebut akan muncul dan isi di dalamnya bisa diatur menggunakan Flexbox. Makanya display ini lumayan penting di website gw karena gw bikin beberapa bagian muncul dan menghilang secara bergantian.</p>
+
+        <p class="p_pembuatan">Nah ada juga padding dan margin. Keduanya sama-sama berhubungan dengan jarak, tapi tempatnya beda. Padding adalah jarak antara isi element dengan bagian dalam atau pinggir element tersebut. Sedangkan margin adalah jarak antara sebuah element dengan element lain di luar dirinya. Gampangnya padding itu jarak ke dalam, margin itu jarak ke luar.</p>
+
+        <p class="p_pembuatan">Contohnya kalau button terlalu mepet dengan tulisan di dalamnya, kita bisa menggunakan padding. Kalau button terlalu mepet dengan button lain, kita bisa menggunakan margin. Jadi misalnya padding: 15px 32px; itu memberikan jarak di dalam button, sedangkan margin: 4px 20px; memberikan jarak di luar button.</p>
+
+        <p class="p_pembuatan">Ada juga width dan height. width digunakan untuk mengatur lebar element, sedangkan height digunakan untuk mengatur tinggi element. Contohnya .div_lagu gw kasih width: 350px dan height: 600px. Artinya kotak bagian lagu tersebut mempunyai lebar 350 pixel dan tinggi 600 pixel.</p>
+
+        <p class="p_pembuatan">Untuk ukuran ada px atau pixel. Pixel adalah satuan ukuran yang sering digunakan dalam CSS. Contohnya width: 100px berarti lebarnya 100 pixel. Selain px ada juga satuan lain seperti %, em, rem, vh, dan vw. Tapi untuk project ini gw lebih sering menggunakan px karena lebih gampang buat ngatur ukuran secara langsung.</p>
+
+        <p class="p_pembuatan">Selanjutnya ada background-color. Sesuai namanya, ini digunakan untuk mengatur warna background sebuah element. Contohnya body gw kasih background-color: antiquewhite; supaya warna latar belakang halaman menjadi antiquewhite. Bisa juga menggunakan nama warna seperti black, white, violet, coral, dan lain-lain atau menggunakan kode warna seperti #c3c3c3.</p>
+
+        <p class="p_pembuatan">Ada juga color. Kalau background-color mengubah warna background, color digunakan untuk mengubah warna tulisan. Contohnya color: white; berarti tulisan di dalam element tersebut akan berwarna putih.</p>
+
+        <p class="p_pembuatan">Nah sekarang masuk ke border. Border digunakan untuk memberikan garis atau batas di sekitar sebuah element. Contohnya border: solid; berarti memberikan border dengan bentuk garis solid. Ada juga dotted untuk garis titik-titik, dashed untuk garis putus-putus, double untuk garis ganda, dan groove untuk efek garis tertentu. Border ini gw pakai di button, audio, dan piringan.</p>
+
+        <p class="p_pembuatan">Untuk membuat border menjadi bulat ada border-radius. Contohnya border-radius: 20px; akan membuat sudut element menjadi lebih bulat. Kalau nilainya sangat besar atau menggunakan 50%, bentuknya bisa menjadi bulat. Makanya piringan lagu gw kasih border-radius yang sangat besar supaya bentuknya menjadi lingkaran.</p>
+
+        <p class="p_pembuatan">Selanjutnya ada text-shadow. Ini digunakan untuk memberikan bayangan pada tulisan. Contohnya text-shadow: 0px 10px 20px black; berarti tulisan diberikan bayangan berwarna hitam. Angka-angka tersebut mengatur posisi dan tingkat blur bayangannya. Jadi tulisan bisa kelihatan lebih mencolok atau punya efek tertentu.</p>
+
+        <p class="p_pembuatan">Nah ada transform. Transform digunakan untuk mengubah posisi, ukuran, rotasi, atau bentuk dari sebuah element tanpa harus mengubah posisi normal element tersebut. Contohnya transform: translateX(500px); digunakan untuk menggeser element ke kanan. Kalau translateY digunakan untuk menggeser ke atas atau bawah.</p>
+
+        <p class="p_pembuatan">Selain translate ada scale. Scale digunakan untuk memperbesar atau memperkecil ukuran element. Contohnya scale: 1.2; berarti ukurannya menjadi sekitar 1.2 kali ukuran normal. Kalau scale: 0.5; berarti ukurannya menjadi setengah dari ukuran normal. Di project ini scale gw pakai untuk membuat beberapa tulisan dan gambar seperti membesar atau mengecil.</p>
+
+        <p class="p_pembuatan">Ada juga rotate atau transform: rotate(). Ini digunakan untuk memutar element. Contohnya rotate(360deg) berarti element diputar satu putaran penuh sebesar 360 derajat. Ini yang gw pakai untuk membuat gambar piringan lagu bisa berputar.</p>
+
+        <p class="p_pembuatan">Selanjutnya ada transition. Transition digunakan supaya perubahan CSS menjadi lebih halus. Contohnya button ketika mouse diarahkan ke atasnya ukurannya berubah menggunakan scale. Kalau tidak memakai transition, perubahan bisa langsung terjadi. Dengan transition: all 0.5s ease;, perubahan tersebut akan berjalan secara lebih halus selama kurang lebih 0.5 detik.</p>
+
+        <p class="p_pembuatan">Nah untuk :hover dan :active. :hover digunakan ketika mouse berada di atas element. Contohnya .Ga:hover berarti style tersebut akan aktif ketika mouse diarahkan ke button dengan class Ga. Sedangkan :active digunakan ketika element sedang ditekan. Makanya gw pakai .Ga:active supaya button bisa mempunyai perubahan ketika ditekan.</p>
+
+        <p class="p_pembuatan">Sekarang masuk ke bagian yang paling sering gw pakai untuk membuat animasi, yaitu @keyframes. @keyframes digunakan untuk membuat rangkaian perubahan yang bisa dijadikan animasi. Di dalamnya kita menentukan kondisi awal, kondisi tengah, dan kondisi akhir. Contohnya kalau mau membuat element bergerak dari kiri ke kanan, kita bisa membuat @keyframes yang mengubah translateX dari 0px menjadi 500px.</p>
+
+        <p class="p_pembuatan">Contohnya di kode gw ada @keyframes berputar. Di bagian from rotasinya 0 derajat, kemudian di bagian to rotasinya menjadi 360 derajat. Kalau animation tersebut dijalankan secara infinite, animasinya akan terus berputar. Ini yang digunakan untuk membuat piringan lagu berputar ketika audio dimainkan.</p>
+
+        <p class="p_pembuatan">Setelah membuat @keyframes, animasinya belum otomatis berjalan. Kita harus memasangnya ke element menggunakan property animation. Contohnya animation: berputar 2s normal infinite;. Artinya gunakan animasi bernama berputar selama 2 detik dan ulangi terus menerus. Jadi @keyframes itu membuat gerakannya, sedangkan animation digunakan untuk menjalankan gerakan tersebut pada element.</p>
+
+        <p class="p_pembuatan">Di animation ada juga beberapa bagian. Contohnya animation: naek 3s ease;. naek adalah nama animasinya, 3s berarti animasinya berlangsung selama 3 detik, dan ease adalah jenis kecepatan animasinya. Ada juga infinite yang berarti animasi diulang terus menerus. Kalau menggunakan alternate atau alternate-reverse, arah animasinya bisa dibuat bolak-balik.</p>
+
+        <p class="p_pembuatan">Contohnya @keyframes kecilbesar yang gw buat digunakan untuk membuat element sedikit membesar lalu kembali ke ukuran awal. Karena animation-nya menggunakan infinite, animasi tersebut akan terus mengulang. Ini gw pakai pada gambar kucing dan tulisan bagian akhir supaya ukurannya seperti berdetak atau membesar-mengecil terus.</p>
+
+        <p class="p_pembuatan">Nah ada juga opacity. Opacity digunakan untuk mengatur tingkat transparansi sebuah element. Nilai 1 berarti terlihat penuh, sedangkan 0 berarti transparan atau tidak terlihat. Di @keyframes transisingilang gw menggunakan opacity dari 1 menjadi 0 supaya element terlihat seperti perlahan menghilang.</p>
+
+        <p class="p_pembuatan">Untuk background ada juga linear-gradient. Ini digunakan untuk membuat warna background atau warna tulisan menjadi gradasi. Contohnya background: linear-gradient(violet, coral); berarti warna akan berubah secara gradasi dari violet ke coral. Di project ini gw juga menggunakan gradient untuk membuat warna pada tulisan menjadi lebih unik.</p>
+
+        <p class="p_pembuatan">Nah ada sedikit trik lagi yaitu -webkit-background-clip: text dan -webkit-text-fill-color: transparent. Ini biasanya digunakan bersama linear-gradient supaya gradient bisa masuk ke dalam tulisan. Jadi background gradient-nya dipotong mengikuti bentuk text, kemudian warna tulisan dibuat transparan supaya gradient tersebut kelihatan. Hasilnya tulisan bisa punya warna gradasi.</p>
+
+        <p class="p_pembuatan">Selain itu ada cursor: pointer. Ini digunakan supaya cursor mouse berubah menjadi bentuk tangan ketika berada di atas element. Biasanya dipakai pada button atau element yang bisa diklik supaya pengguna tahu bahwa element tersebut bisa ditekan.</p>
+
+        <p class="p_pembuatan">Terakhir ada @keyframes yang gw buat sendiri seperti rusak, atasbawah, kecilbesar, rotasi, mengecil, melebar, bouch, naikturun, samping, kecil, transisisamping, dan transisingilang. Nama-nama tersebut sebenarnya bebas mau dinamakan apa saja. Yang penting nama yang dipakai di @keyframes harus sama dengan nama yang dipanggil pada animation. Jadi misalnya @keyframes berputar harus dipanggil dengan animation: berputar ...; kalau namanya beda ya animasinya nggak bakal ketemu jirr wkwkwk.</p>
+
+        <p class="p_pembuatan">Jadi kurang lebih CSS di website ini digunakan untuk mengatur hampir semua bagian tampilannya. Mulai dari posisi, ukuran, warna, border, bentuk button, tulisan, sampai animasi perpindahan antar bagian website. JavaScript nanti yang menentukan kapan sesuatu terjadi, sedangkan CSS yang mengatur bagaimana sesuatu tersebut terlihat. Jadi keduanya saling kerja sama supaya website ini nggak cuma jadi HTML polos yang isinya tulisan doang wkwkwk.</p>
+
+
         <div class="code-container">
             <div class="code-header">
                 <span class="lang-title">html</span>
@@ -879,12 +945,59 @@ async function gantike5() {
 
 </code></pre>
         </div>
-        <p class="p_pembuatan">lets gooo.... lanjut ke javascript diatas itu banya const buat tambahin objek dari html sesuai class ato id, gw pake "querySelector" dan "querySelectorAll" gw jelaskan satu satu: untuk querySelector(untuk ngeset 1 object misal mau set 1 button pake ini) jika button dengan class itu lebih dari 1 dan mau semua bisa dipanggil maka akan pakai yang All</p>
-        <p class="p_pembuatan">nah terus kan ada tuh "addEventListener" itu buat ngeklik button ato object lain, nah terus kan ada tuh "click" itu buat ngeklik button ato object lain, nah terus kan ada tuh "function" itu buat ngeklik button ato object lain, nah terus kan ada tuh "style.display" itu buat nampilin ato ilangin object sesuai class ato id</p>\
-        <p class="p_pembuatan">nah terus kan ada tuh "alert" itu buat nampilin tulisan di web, nah terus kan ada tuh "console.log" itu buat nampilin tulisan di console, nah terus kan ada tuh "async" itu buat ngejalanin function secara bersamaan, nah terus kan ada tuh "await" itu buat ngejalanin function secara bersamaan, nah terus kan ada tuh "sleep" itu buat ngejalanin function secara bersamaan</p>
-        <p class="p_pembuatan">nah terus kan ada tuh "audio.play()" itu buat ngejalanin lagu, nah terus kan ada tuh "audio.pause()" itu buat ngepause lagu, nah terus kan ada tuh "audio.currentTime = 0" itu buat ngeulangin lagu dari awal</p>
+        
+        <p class="p_pembuatan">lets gooo.... lanjut ke javascript diatas itu banyak const buat nambahin object dari html sesuai class ato id, gw pake "querySelector" dan "querySelectorAll" gw jelasin satu satu: untuk querySelector itu buat ngambil 1 object misal mau ngambil 1 button pake ini, nah jika button dengan class itu lebih dari 1 dan mau semua bisa dipanggil maka akan pakai querySelectorAll, jadi gampangnya querySelector cuma satu sedangkan querySelectorAll itu semuanya</p>
+
+        <p class="p_pembuatan">nah terus ada "document" itu buat ngarah ke halaman html yang sedang dibuka, jadi misalnya document.querySelector(".gpp") itu kurang lebih javascript nyuruh browser buat nyari object yang classnya gpp di html</p>
+
+        <p class="p_pembuatan">nah terus kan ada tuh "const" sama "let", itu buat bikin variable, variable itu ya tempat buat nyimpen data atau nilai, contoh let pilihan = "0" nah pilihan itu nama variablenya dan "0" itu isinya, kalo const biasanya dipake buat nilai yang nggak perlu diganti sedangkan let bisa diganti isinya, contohnya di kode gw pilihan awalnya 0 terus nanti pas button GPP diklik jadi 1</p>
+
+        <p class="p_pembuatan">nah terus kan ada tuh "addEventListener" itu buat nunggu suatu event atau kejadian dari object, bukan cuma buat ngeklik button aja. Contohnya ada "click" yang berarti nunggu object tersebut diklik, ada juga "mouseenter" yang berarti ketika mouse masuk ke object, terus di audio ada "play" sama "pause" yang jalan ketika lagu dimainkan atau dijeda</p>
+
+        <p class="p_pembuatan">nah terus kan ada tuh "click" itu salah satu event yang bisa dipakai di addEventListener, misalnya b1_a1.addEventListener("click", () => { gantikea2(); }); artinya ketika button b1_a1 diklik maka function gantikea2 akan dijalankan. Jadi click itu bukan buat ngeklik sendiri jirr, tapi buat memberitahu javascript "woe kalau object ini diklik lakukan sesuatu"</p>
+
+        <p class="p_pembuatan">nah terus ada "function", function itu buat ngumpulin beberapa kode jadi satu dan dikasih nama supaya nanti bisa dipanggil lagi. Contohnya gw bikin function startmusik(), nah didalamnya ada kode buat bikin piringan berputar. Jadi daripada nulis kode yang sama berkali-kali tinggal panggil startmusik() aja. Function juga bisa menerima data dari luar, contohnya function kecil(kena), nah kena itu bisa dikasih nilai dari luar function</p>
+
+        <p class="p_pembuatan">nah terus kan ada "style.display" itu buat ngatur display object lewat javascript, misalnya element.style.display = "none" berarti element tersebut disembunyikan, sedangkan element.style.display = "flex" berarti element tersebut ditampilkan sebagai flex. Di project gw ini dipake buat sistem pindah bagian, jadi bagian pertama diilangin terus bagian kedua ditampilin</p>
+
+        <p class="p_pembuatan">nah ada juga "style" secara keseluruhan. Kalau style.display cuma buat display, style bisa dipake buat banyak property CSS lainnya. Contohnya bga.style = "transform: translateX(100px);" berarti javascript memberikan CSS transform ke object tersebut. Jadi CSS yang biasanya ditulis di file Styles.css bisa juga diubah lewat javascript</p>
+
+        <p class="p_pembuatan">nah terus ada "classList.add()" ini buat nambahin class CSS ke sebuah object lewat javascript. Contohnya lagu.classList.add("naikk"), berarti object lagu ditambah class naikk. Karena di CSS gw sudah bikin .naikk { animation: naek 3s ease; }, maka setelah class tersebut ditambahkan animasinya langsung jalan. Jadi javascript bisa nyuruh CSS buat menjalankan style tertentu</p>
+
+        <p class="p_pembuatan">nah terus ada "forEach()" ini buat menjalankan kode ke semua object yang ada didalam sebuah kumpulan. Contohnya top_a1.forEach((a1) => { ... }); berarti semua object yang ada di top_a1 bakal dikenain kode yang ada didalamnya. Jadi kalau ada banyak object nggak perlu nulis kode satu-satu, tinggal pake forEach aja</p>
+
+        <p class="p_pembuatan">nah terus kan ada tuh "if" itu buat ngecek kondisi. Contohnya di kode gw ada if (pilihan == 1), itu berarti javascript ngecek apakah pilihan nilainya 1. Kalau iya maka kode didalam if dijalankan. Kalau tidak maka bisa masuk ke else. Contohnya kalau belum memilih GPP terus klik lanjutkan maka akan muncul alert "Pilih Dulu woe"</p>
+
+        <p class="p_pembuatan">nah terus ada "else", ini biasanya dipake barengan sama if. Jadi kalau kondisi didalam if tidak terpenuhi maka kode didalam else yang dijalankan. Contohnya if (pilihan == 1) lanjut ke halaman berikutnya, else kasih alert. Jadi kayak javascript ditanya "pilihannya 1 nggak?" kalau iya lanjut, kalau nggak ya dimarahin wkwkwk</p>
+
+        <p class="p_pembuatan">nah terus kan ada tuh "alert" itu buat nampilin pesan kecil dari browser. Contohnya alert("Pilih Dulu woe"), nanti browser bakal nampilin kotak pesan yang isinya tulisan tersebut. Ini biasanya dipake buat kasih pemberitahuan sederhana ke pengguna</p>
+
+        <p class="p_pembuatan">nah terus ada "console.log" itu buat nampilin sesuatu di console browser. Contohnya console.log("beres"); nanti tulisan tersebut bisa dilihat di Developer Tools bagian Console. Ini lumayan berguna buat ngecek apakah kode kita sudah jalan atau belum. Jadi kalau ada bug bisa kita kasih console.log buat nyari tau bagian mana yang bermasalah</p>
+
+        <p class="p_pembuatan">nah terus ada "async" itu buat menandai kalau sebuah function bisa menggunakan proses asynchronous dan bisa menggunakan await. Di project gw async dipake pada function yang membutuhkan waktu menunggu, contohnya gantikea2() karena ada animasi yang harus selesai dulu sebelum halaman berikutnya muncul</p>
+
+        <p class="p_pembuatan">nah terus ada "await" itu buat menunggu proses asynchronous sebelum lanjut ke kode berikutnya. Contohnya await sleep(3000), berarti javascript nunggu kurang lebih 3 detik dulu baru lanjut ke baris berikutnya. Jadi bukan buat ngejalanin function secara bersamaan, malah di bagian tersebut kita nyuruh function buat nunggu</p>
+
+        <p class="p_pembuatan">nah terus ada "sleep" itu sebenarnya function yang gw bikin sendiri, bukan fitur bawaan javascript yang tinggal dipanggil. Didalam sleep gw pake Promise dan setTimeout supaya bisa membuat delay. Jadi kalau gw tulis sleep(3000) artinya bikin waktu tunggu sekitar 3 detik. Ini gw pake supaya animasi punya waktu buat selesai sebelum element dihilangkan atau element berikutnya ditampilkan</p>
+
+        <p class="p_pembuatan">nah terus ada "setTimeout" yang dipake didalam function sleep. Ini gunanya buat menjalankan sesuatu setelah waktu tertentu. Misalnya 3000 berarti kurang lebih 3000 milidetik atau 3 detik. Jadi javascript punya cara buat bilang "tunggu dulu bentar jir baru jalan"</p>
+
+        <p class="p_pembuatan">nah terus kan ada tuh "audio.play()" itu buat ngejalanin lagu, "audio.pause()" buat ngepause lagu, dan "audio.currentTime = 0" buat mengubah posisi lagu ke waktu tertentu. Kalau currentTime dikasih 0 berarti posisi lagu dikembalikan ke awal. Jadi audio juga bisa dikontrol lewat javascript tanpa harus selalu pencet tombol bawaan audio dari browser</p>
+
+        <p class="p_pembuatan">nah terus di kode gw ada "mouseenter" yang dipake buat mendeteksi ketika mouse masuk ke object. Contohnya button Ga ketika mouse diarahkan ke button tersebut akan menjalankan function kecil(kena). Jadi button tersebut bisa dibuat kabur sebelum sempat diklik wkwkwk</p>
+
+        <p class="p_pembuatan">nah terus ada "textContent" contohnya bga.textContent = "MALAZZ"; ini buat mengubah tulisan atau isi text dari sebuah object. Jadi tulisan yang awalnya ada didalam button bisa diganti menggunakan javascript. Ini beda dengan innerHTML karena textContent lebih fokus ke text biasa</p>
+
+        <p class="p_pembuatan">nah terus ada "console.log(top_a2)" yang gw pake buat ngecek isi variable atau object. Kalau kita masukin sesuatu ke console.log maka javascript bakal mencoba menampilkannya di console browser. Ini salah satu cara paling gampang buat debugging ketika kita lagi bingung kenapa kode kita nggak jalan</p>
+
+        <p class="p_pembuatan">nah terus semua bagian tadi akhirnya digabungin buat bikin alur website. Contohnya ketika tombol Lanjutkan pertama diklik, addEventListener mendeteksi event click, lalu function gantikea2 dijalankan. Didalam function itu halaman pertama dikasih animation, lalu await sleep(3000) membuat javascript menunggu 3 detik. Setelah itu display halaman pertama dibuat none dan halaman kedua dibuat flex. Jadi website-nya pindah dari bagian pertama ke bagian kedua</p>
+
+        <p class="p_pembuatan">nah kurang lebih javascript di project ini tugasnya buat ngatur interaksi dan perpindahan antar bagian website. HTML menyediakan objectnya, CSS mengatur tampilannya, dan javascript yang mengatur kapan object tersebut muncul, hilang, bergerak, berubah, atau melakukan sesuatu ketika user berinteraksi. Jadi tiga-tiganya kerja sama, nggak HTML doang terus berharap websitenya bisa gerak sendiri jirr wkwkwk</p>
+
+
         <p>Kurang Rapi jirr</p>
         <h2>kebanyakan nah nah nah nah yak wkwkwk, JIKA MASIH ADA PERTANYAAN BISA DITANYAKAN DI WA ATO DC ATO IG ATO FACEBOOK DAN YA JAN DITIKTOK KARENA TIKTOK SAYA ADA DI HP EMAK, Teri Makasih</h2>
+        <h4>Terimakasih Chatgpt Telah Merangkum Cerita Penjelasan Saya Malaz Ngetik Jirr</h4>
     </div>
     <script src="Script.js"></script>
 
